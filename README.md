@@ -9,6 +9,12 @@ cd ~/ros2_ws
 ```bash
 colcon build
 ```
+
+新しいターミナルで環境をソースします。
+```bash
+source ~/dev_ws/install/setup.bash
+```
+
 環境設定の再読み込み
 ```bash
 . install/setup.bash
