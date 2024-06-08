@@ -20,7 +20,7 @@ directory_name2/all_nodes.launch.py のノードを実行
 ros2　launch directory_name2 all_nodes.launch.py
 ```
 
-## Set up for Vision System 
+## Setup for Vision System 
 
 Ubuntu上のROS 2環境で `cv_bridge` と `opencv-python` をインストールする手順を説明します。
 
