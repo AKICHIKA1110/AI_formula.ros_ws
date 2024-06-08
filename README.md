@@ -26,8 +26,9 @@ Ubuntu上のROS 2環境で `cv_bridge` と `opencv-python` をインストール
 
 ### cv_bridge のインストール
 
-`cv_bridge` は、ROS 2ディストリビューションに通常含まれていますが、もしインストールされていない場合は、以下の手順でインストールできます。
-
+`cv_bridge` は、ROS 2ディストリビューションに通常含まれていますが、もしインストールされていない場合は  
+以下の手順でインストールできます。
+`cv_bridge`クラスは, ROS Image MEssageのデータをOpenCVの画像データへ変換する
 ```bash
 sudo apt update
 sudo apt install ros-foxy-cv-bridge
