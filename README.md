@@ -37,3 +37,8 @@ sudo apt install ros-foxy-cv-bridge
 ```bash
 pip3 install opencv-python
 ```
+
+```bash
+sudo apt install ros-foxy-vision-opencv
+```
+
