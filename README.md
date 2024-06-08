@@ -43,3 +43,18 @@ pip3 install opencv-python
 sudo apt install ros-foxy-vision-opencv
 ```
 
+```bash
+mkdir -p ~/zed_ws/src
+cd ~/zed_ws/src
+git clone https://github.com/stereolabs/zed-ros2-wrapper.git
+cd ../
+```
+依存関係のインストール
+```bash
+rosdep install --from-paths src --ignore-src -r -y
+```
+
+```bash
+colcon build
+source install/setup.bash
+```
