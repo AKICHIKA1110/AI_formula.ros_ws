@@ -10,14 +10,14 @@ cd ~/ros2_ws
 colcon build
 ```
 
-新しいターミナルで環境をソースします。
+環境設定の再読み込み
 ```bash
 source ~/ros2_ws/install/setup.bash
 ```
 
-環境設定の再読み込み
+directory_name2/all_nodes.launch.py のノードを実行
 ```bash
-. install/setup.bash
+ros2　launch directory_name2 all_nodes.launch.py
 ```
 
 ## cv_bridge と opencv-python のインストール
