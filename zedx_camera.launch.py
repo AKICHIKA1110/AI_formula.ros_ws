@@ -13,6 +13,7 @@ from launch.substitutions import (
     TextSubstitution
 )
 from launch_ros.actions import Node
+#カスタム関数
 from common_python.launch_util import get_frame_ids_and_topic_names, check_zedx_available_fps
 
 
