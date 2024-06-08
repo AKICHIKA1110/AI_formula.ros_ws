@@ -42,7 +42,7 @@ pip3 install opencv-python
 ```bash
 sudo apt install ros-foxy-vision-opencv
 ```
-
+### ZED ROS 2ラッパーのセットアップ
 ```bash
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
