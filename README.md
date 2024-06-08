@@ -32,7 +32,7 @@ Ubuntu上のROS 2環境で `cv_bridge` と `opencv-python` をインストール
 sudo apt update
 sudo apt install ros-foxy-cv-bridge
 ```
-### OpenCV のインストール
+### OpenCV関連のパッケージをインストール
 
 ```bash
 pip3 install opencv-python
