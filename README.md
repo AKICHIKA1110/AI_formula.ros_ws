@@ -44,8 +44,8 @@ sudo apt install ros-foxy-vision-opencv
 ```
 
 ```bash
-mkdir -p ~/zed_ws/src
-cd ~/zed_ws/src
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
 git clone https://github.com/stereolabs/zed-ros2-wrapper.git
 cd ../
 ```
