@@ -12,7 +12,7 @@ colcon build
 
 新しいターミナルで環境をソースします。
 ```bash
-source ~/dev_ws/install/setup.bash
+source ~/ros2_ws/install/setup.bash
 ```
 
 環境設定の再読み込み
