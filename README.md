@@ -44,20 +44,13 @@ sudo apt install ros-foxy-vision-opencv
 ```
 ### ZED ROS 2ラッパーのセットアップ
 ```bash
-# Create your ROS 2 Workspace if you do not have one
-mkdir -p ~/ros2_ws/src/
-# Move to the `src` folder of the ROS 2 Workspace
-cd ~/ros2_ws/src/ 
-git clone --recurse-submodules https://github.com/stereolabs/zed-ros2-wrapper.git
+cd ~/ros2_ws/src
+git clone https://github.com/stereolabs/zed-ros2-wrapper.git
 cd ..
-sudo apt update
-# Install the required dependencies
 rosdep install --from-paths src --ignore-src -r -y
-# Build the wrapper
-colcon build --symlink-install --cmake-args=-DCMAKE_BUILD_TYPE=Release
-# Setup the environment variables
-echo source $(pwd)/install/local_setup.bash >> ~/.bashrc
-source ~/.bashrc
+colcon build --symlink-install
+source install/setup.bash
+
 ```
 
 ```bash
